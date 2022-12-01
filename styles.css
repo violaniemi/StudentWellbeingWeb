@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(217,217,217,255);
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div {
+    font-size: 150%;
+    word-wrap: break-word;
+  }
+  .btn {
+    background-color: rgb(135,184,230,255);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .success {color: rgba(255,255,255,255); background-color: rgba(57,84,136,255);}
+  .success {width:400px;}
+  .teksti {
+    height:300px;
+    width:200px;
+}

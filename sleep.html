@@ -51,14 +51,23 @@
         <p>23.11.2022</p>
     </div>
 
-    <div class="sleeptime">
-        <p>Thursday:</p>
-        <p>Amount of sleep: 8h</p>
+    <div class="sleeptime" style = "position:absolute; left:40px; top:230px">
+        <p>How much did you sleep today?</p>
+        <input type="text" id="mySleep">
+        <button type="button" onclick="showSleep()">Ok</button>
     </div>
 
-    <h3>Navigation</h3>
+    <template>
+        <div class="sleeptime" style = "position:absolute; left:40px; top:230px">
+            <p>Thursday</p>
+            <p>You slept today:</p>
+            <p id="sleep"></p>
+        </div>
+    </template>
 
-    <li><a href="meals.html">Daily meals</a></li>
+    <h3 style = "position:absolute; top:350px">Navigation</h3>
+
+    <li style = "position:absolute; top:380px"><a href="meals.html">Daily meals</a></li>
 
     <!--
     <ul>
@@ -70,6 +79,6 @@
     </ul>
     -->
     
-    <script src="scripts/main.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

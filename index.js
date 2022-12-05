@@ -8,3 +8,13 @@ function showContent() {
     document.getElementById('date-time').innerHTML = current_time;
     }
 
+function showSleep() {
+    var temp = document.getElementsByTagName("template")[0];
+    var clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
+    var sleep = document.getElementById("mySleep").value;
+    document.getElementById("sleep").innerHTML = sleep;
+}
+
+
+

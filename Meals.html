@@ -8,36 +8,48 @@
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1 style = "position:absolute; left:100px; top:0px;">Daily Meals</h1>
+    <template class="grid-container" >
+    <button class="turha">              </button>
+    <button contenteditable class="btn uusi">
+        <p style = "position:relative; left:-10px; top:-35px; font-size:150%; white-space: nowrap">12:30&nbsp;AM</p>
+        <input style = "position:relative; left:-15px; top:-25px;" type="text" id="mySleep">
+        <input style = "position:relative; left:-15px; top:10px;" type="text" id="mySleep">
+    </button>
+    </template>
+​
+    <script src="index.js"></script>
+    <h1 style = "position:absolute; left:60px; top:-10px;">Daily Meals</h1>
      
-    <div style = "position:absolute; left:400px; top:10px;">
-        <button class="btn success">23.11.2022&nbsp;&nbsp;&nbsp;&nbsp;<em class="fa fa-long-arrow-right"></em></button>
+    <div style = "position:absolute; left:400px; top:30px;">
+        <button class="btn success">23.11.2022&nbsp;&nbsp;&nbsp;&nbsp;<em class="fa fa-calendar"></em></button>
     </div>
-
+​
     <div style = "position:absolute; left:100px; top:250px;">
-        <button class="btn teksti">Bread: 150g</button>
+        <button contenteditable class="btn teksti">Bread: 160g</button>
     </div>
-
+​
     <div style = "position:absolute; left:400px; top:250px;">
-        <button class="btn teksti">Protein 100g</button>
+        <button contenteditable class="btn teksti">Protein 100g</button>
     </div>
-
+​
     <div style = "position:absolute; left:700px; top:250px;">
-        <button class="btn teksti"><em class="fa fa-plus"></em>Add new meal</button>
+        <button style="border-radius: 100px; background-color: rgba(57,84,136,255); color: rgba(255,255,255,255);" onclick="showContent()" class="btn teksti"><em class="fa fa-plus fa"></em>Add new meal</button>
     </div>
-
+​
     <div style = "position:absolute; left:145px; top:250px;">
         <p>
             8:30 AM
         </p>
     </div>
-
+​
     <div style = "position:absolute; left:450px; top:250px;">
         <p>
             12:30 AM
         </p>
     </div>
 
-    <script src="scripts/main.js"></script>
+    <h3 style = "position:absolute; left:1000px; top:350px">Navigation</h3>
+    <li style = "position:absolute; left:1000px; top:380px"><a href="sleep.html">Sleep routine</a></li>
+    <li style = "position:absolute; left: 1000px; top:400px"><a href="workout.jpg">Workouts</a></li>
 </body>
 </html>
